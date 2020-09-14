@@ -24,11 +24,11 @@ public class Blockchain {
   private ArrayList<Block> chain;
   
   public Blockchain () {
-    CreateBlock (nonce = 1, previousHash = '0', "Algumas Transações");
+    CreateBlock (1, "0", "Algumas Transações");
   }
   
   public Block CreateBlock (int nonce, String previousHash, String data) {
-    Block block = new Block ( this.chain.length + 1,
+    Block block = new Block ( this.chain.size() + 1,
                               new Date().toString(),
                               nonce,
                               data,
