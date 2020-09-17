@@ -8,5 +8,8 @@ previous block hash.
 ## The repository
 Blockchain
   - Basic Blockchain Structure
+    - Blockchain with C
+    - Blockchain with Java
+    - Blockchain with Python
   - Cryptocurrency
   - Smart Contract
