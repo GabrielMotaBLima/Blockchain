@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <jansson.h> // I hasn't been tested Jansson Library yet
 
 typedef struct block {
-	const int index;
+  const int index;
   char * timestamp;
   int nonce;
   char * data;
