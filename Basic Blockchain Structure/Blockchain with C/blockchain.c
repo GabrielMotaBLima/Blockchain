@@ -12,6 +12,6 @@ typedef struct block {
 } Block;
 
 typedef struct blockchain {
-	const int index;
-	Block * block;
+  const int index;
+  Block * block;
 } Blockchain;
